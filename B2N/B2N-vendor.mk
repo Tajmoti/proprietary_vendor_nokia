@@ -155,6 +155,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/lib/libchromatix_s5k3p8sp_b2n_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_b2n_snapshot.so \
     vendor/nokia/B2N/proprietary/vendor/lib/libchromatix_s5k3p8sp_b2n_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_b2n_versions.so \
     vendor/nokia/B2N/proprietary/vendor/lib/libchromatix_s5k3p8sp_b2n_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_b2n_video.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_m24c64s_b2n_tele_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_b2n_tele_eeprom.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_m24c64t_b2n_wide_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64t_b2n_wide_eeprom.so \
     vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_s5k2l7_b2n_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7_b2n_wide.so \
     vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_s5k3m3sm_b2n_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m3sm_b2n_tele.so \
     vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_s5k3p8sp_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp_b2n.so \
