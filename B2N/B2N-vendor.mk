@@ -172,437 +172,438 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/nokia/B2N/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/nokia/B2N/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so \
-    vendor/nokia/B2N/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so
-    vendor/nokia/B2N/proprietary/vendor/etc/8716.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/8716_B2N.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_B2N.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/8716_S2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S2.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/8716_S3.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S3.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/SKUID_Info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SKUID_Info.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp
-    vendor/nokia/B2N/proprietary/vendor/etc/acdbdata/B2N/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/workspaceFile.qwsp
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_ctl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_ctl.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_extcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_extcodec.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_sd1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_sd1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_skush.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_skush.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tas.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tas.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tasha.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tasha_skus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tasha_skus.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tashalite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tashalite.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tavil.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_tuning_mixer_tasha.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tasha.txt
-    vendor/nokia/B2N/proprietary/vendor/etc/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tavil.txt
-    vendor/nokia/B2N/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem
-    vendor/nokia/B2N/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model_fast:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model_fast
-    vendor/nokia/B2N/proprietary/vendor/etc/ctl/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_0.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/ctl/test_sensor_1.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_1.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/drp/test_sensor_2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/drp/test_sensor_2.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config
-    vendor/nokia/B2N/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg2.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm660_800s_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm660_800s_qhd.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800h.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800h.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800h_8998_660.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800h_8998_660.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept
-    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny
-    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/init/bboxservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bboxservice.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/csysservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/csysservice.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.B2N.tp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.B2N.tp.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.CTL.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.CTL.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HG1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HG1.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HH1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HH1.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HH6.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HH6.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SAT.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SAT.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SD1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SD1.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SD6.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SD6.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SS2.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SS2.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.TAS.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.TAS.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.b2n.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.b2n.fqc_audio.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fih.dbg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.dbg.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fih.elabel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.elabel.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fingerprint.focal9362_tas.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.focal9362_tas.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.nfc.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.nxp.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.sec.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.battery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.battery.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.emmc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.emmc.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.fs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.fs.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.lcm.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.ramdump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.ramdump.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.sensor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.sensor.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.target.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.tp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.tp.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.battery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.battery.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.fqc_audio.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.lcm.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.led.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.led.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.nfc.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.poweroff_charging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.poweroff_charging.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.smartamp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.smartamp.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sd1.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sd1.fqc_audio.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2A.1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2A.1.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2A.2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2A.2.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2C.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2C.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2L.1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2L.1.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2L.2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2L.2.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vibrator.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/init.fih.app_overlay.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fih.app_overlay.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/init.qcom.cda.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qcom.cda.vendor.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ3XX.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp-NQ4XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ4XX.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_default.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_rf1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_rf1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_rf2.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-NQ3XX.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd-NQ4XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-NQ4XX.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_default.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_rf1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf2.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_performance_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sdm660_v1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sdm660_v1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor_ozo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_ozo.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sdm660_v1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_ctl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_ctl.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_sd1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_sd1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_skush.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_skush.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tas.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tas.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tasha_skus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha_skus.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tashalite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tashalite.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9335.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/ozo_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ozo_config.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat
-    vendor/nokia/B2N/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
-    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_c1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_c1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_hg1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_hg1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_hh1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_hh1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_s2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_s2.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_tas.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_tas.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9335.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/test_sensor_0.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-HH1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-HH1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-HH6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-HH6.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SAT.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SD1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SD1.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SS2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SS2.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-TAS.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-TAS.conf
-    vendor/nokia/B2N/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
-    vendor/nokia/B2N/proprietary/vendor/etc/wbg_bt.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_bt.sh
-    vendor/nokia/B2N/proprietary/vendor/etc/wbg_wifi.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_wifi.sh
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_CTL_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_CTL_cal.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_HG1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_HG1_cal.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SAT_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SAT_cal.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SD1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SD1_cal.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SS2_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SS2_cal.bin
-    vendor/nokia/B2N/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini
-    vendor/nokia/B2N/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem
-    vendor/nokia/B2N/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
-    vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_CTL.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_CTL.bin
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.cnt
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.ini
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1_dvt.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.cnt
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1_dvt.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.ini
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9894_ctl.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.cnt
-    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9894_ctl.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.ini
-    vendor/nokia/B2N/proprietary/vendor/firmware/TP_Firmware_FT8716_S2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S2.bin
-    vendor/nokia/B2N/proprietary/vendor/firmware/TP_Firmware_FT8716_S3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S3.bin
-    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b01
-    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.mdt
-    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b01
-    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.mdt
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b00
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b01
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b02
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b03
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b04
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b05
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b06
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b07
-    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.mdt
-    vendor/nokia/B2N/proprietary/vendor/firmware/goodix_config_hlt_ctl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt_ctl.cfg
-    vendor/nokia/B2N/proprietary/vendor/firmware/goodix_firmware_hlt_ctl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt_ctl.bin
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3.fw
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm1.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm10.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm11.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm12.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm13.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm14.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm15.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm16.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm17.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm18.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm2.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm3.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm4.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm5.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm6.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm7.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm8.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm9.txt
-    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_h_glass_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_h_glass_ts_fw.bin
-    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin
-    vendor/nokia/B2N/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so
-    vendor/nokia/B2N/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so
-    vendor/nokia/B2N/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so
-    vendor/nokia/B2N/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so
-    vendor/nokia/B2N/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so
-    vendor/nokia/B2N/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so
-    vendor/nokia/B2N/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so
-    vendor/nokia/B2N/proprietary/vendor/lib/hw/thermal.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.sdm660.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libMegviiFacepp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMegviiFacepp.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Enc.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libUBWC.so
-    vendor/nokia/B2N/proprietary/vendor/lib/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bbox_flog.so
-    vendor/nokia/B2N/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcert_parse.wpa_s.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrome.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcld80211.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwcommon.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwhidl.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexthwplugin.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libirisService.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libiris_ioctl_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiris_ioctl_wrapper.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so
-    vendor/nokia/B2N/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmegface-new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmegface-new.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiracast.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so
-    vendor/nokia/B2N/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libozoaudiodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudiodecoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libozoaudioencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudioencoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn551_fw.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn557_fw.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirispq.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsap_sdk.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so
-    vendor/nokia/B2N/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libspeexresamplercust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeexresamplercust.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspkrprot.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozodecoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_ozoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozoencoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_ozodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozodec.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_ozoenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozoenc.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi_cert.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-qcom.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so
-    vendor/nokia/B2N/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so
-    vendor/nokia/B2N/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
-    vendor/nokia/B2N/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hw/fingerprint.focaltech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/hw/thermal.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.sdm660.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Enc.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSubSystemShutdown.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libUBWC.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bbox_flog.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadaptlaunch.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libbbox_recv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbox_recv.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libbbsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbsutils.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcert_parse.wpa_s.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcirrusspkrprot.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomprcapture.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwcommon.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwhidl.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexthwplugin.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libgameoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgameoptfeature.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpclient.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpdsp.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpfrmwk.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmiedid.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libirisService.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libiris_ioctl_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiris_ioctl_wrapper.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmeters-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters-ns.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libopenshort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenshort.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisPCS.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsap_sdk.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskewknob.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndmonitor.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspkrprot.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssrec.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_softomx.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstreamparser.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi_cert.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-qcom.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so
-    vendor/nokia/B2N/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so
-    vendor/nokia/B2N/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc
-    vendor/nokia/B2N/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc
+    vendor/nokia/B2N/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
+    vendor/nokia/B2N/proprietary/vendor/etc/8716.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/8716_B2N.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_B2N.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/8716_S2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S2.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/8716_S3.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S3.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/SKUID_Info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SKUID_Info.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp \
+    vendor/nokia/B2N/proprietary/vendor/etc/acdbdata/B2N/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/workspaceFile.qwsp \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_ctl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_ctl.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_extcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_extcodec.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_sd1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_sd1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_skush.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_skush.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tas.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tas.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tasha.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tasha_skus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tasha_skus.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tashalite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tashalite.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_platform_info_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tavil.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_tuning_mixer_tasha.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tasha.txt \
+    vendor/nokia/B2N/proprietary/vendor/etc/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tavil.txt \
+    vendor/nokia/B2N/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/nokia/B2N/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model_fast:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model_fast \
+    vendor/nokia/B2N/proprietary/vendor/etc/ctl/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_0.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/ctl/test_sensor_1.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_1.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/drp/test_sensor_2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/drp/test_sensor_2.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
+    vendor/nokia/B2N/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg2.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/hbtpcfg_sdm660_800s_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm660_800s_qhd.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800h.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800h.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800h_8998_660.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800h_8998_660.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
+    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
+    vendor/nokia/B2N/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/bboxservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bboxservice.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/csysservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/csysservice.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.B2N.tp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.B2N.tp.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.CTL.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.CTL.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HG1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HG1.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HH1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HH1.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.HH6.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.HH6.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SAT.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SAT.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SD1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SD1.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SD6.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SD6.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SS2.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SS2.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.TAS.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.TAS.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.b2n.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.b2n.fqc_audio.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fih.dbg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.dbg.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fih.elabel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.elabel.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.fingerprint.focal9362_tas.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.focal9362_tas.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.nfc.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.nxp.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.sec.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.battery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.battery.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.emmc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.emmc.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.fs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.fs.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.lcm.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.ramdump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.ramdump.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.sensor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.sensor.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.target.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.tp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.tp.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.battery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.battery.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.fqc_audio.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.lcm.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.led.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.led.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.nfc.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.poweroff_charging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.poweroff_charging.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sat.smartamp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.smartamp.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sd1.fqc_audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sd1.fqc_audio.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2A.1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2A.1.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2A.2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2A.2.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2C.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2C.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2L.1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2L.1.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2L.2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2L.2.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vibrator.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/init.fih.app_overlay.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fih.app_overlay.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/init.qcom.cda.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qcom.cda.vendor.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ3XX.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp-NQ4XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ4XX.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_default.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_rf1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_rf1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-mtp_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp_rf2.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-NQ3XX.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd-NQ4XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-NQ4XX.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_default.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_rf1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-qrd_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf2.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_performance_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sdm660_v1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sdm660_v1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_codecs_vendor_ozo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_ozo.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sdm660_v1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_ctl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_ctl.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_sd1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_sd1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_skush.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_skush.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tas.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tas.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tasha_skus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha_skus.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tashalite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tashalite.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9335.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/ozo_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ozo_config.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
+    vendor/nokia/B2N/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_c1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_c1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_hg1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_hg1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_hh1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_hh1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_s2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_s2.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_tas.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_tas.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9335.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/test_sensor_0.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-HH1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-HH1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-HH6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-HH6.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SAT.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SD1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SD1.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-SS2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-SS2.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine-TAS.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-TAS.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/wbg_bt.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_bt.sh \
+    vendor/nokia/B2N/proprietary/vendor/etc/wbg_wifi.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_wifi.sh \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_CTL_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_CTL_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_HG1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_HG1_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SAT_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SAT_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SD1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SD1_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_SS2_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SS2_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
+    vendor/nokia/B2N/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
+    vendor/nokia/B2N/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_CTL.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_CTL.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.cnt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.ini \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1_dvt.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.cnt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9891_sd1_dvt.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.ini \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9894_ctl.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.cnt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TFA9894_ctl.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.ini \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TP_Firmware_FT8716_S2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S2.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TP_Firmware_FT8716_S3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S3.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b01 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.mdt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b01 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.mdt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b00 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b01 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b02 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b03 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b04 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b05 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b06 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b07 \
+    vendor/nokia/B2N/proprietary/vendor/firmware/focalfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.mdt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/goodix_config_hlt_ctl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt_ctl.cfg \
+    vendor/nokia/B2N/proprietary/vendor/firmware/goodix_firmware_hlt_ctl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt_ctl.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3.fw \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm1.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm10.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm11.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm12.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm13.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm14.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm15.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm16.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm17.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm18.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm2.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm3.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm4.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm5.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm6.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm7.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm8.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/iris3_inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm9.txt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_h_glass_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_h_glass_ts_fw.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
+    vendor/nokia/B2N/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/hw/thermal.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.sdm660.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libMegviiFacepp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMegviiFacepp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Enc.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libUBWC.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bbox_flog.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcert_parse.wpa_s.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrome.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcld80211.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwcommon.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwhidl.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexthwplugin.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libirisService.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libiris_ioctl_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiris_ioctl_wrapper.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmegface-new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmegface-new.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiracast.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libozoaudiodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudiodecoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libozoaudioencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudioencoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn551_fw.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn557_fw.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirispq.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsap_sdk.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libspeexresamplercust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeexresamplercust.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspkrprot.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozodecoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_ozoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozoencoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_ozodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozodec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_ozoenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozoenc.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi_cert.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-qcom.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/nokia/B2N/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hw/fingerprint.focaltech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/hw/thermal.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.sdm660.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Enc.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSubSystemShutdown.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libUBWC.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bbox_flog.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadaptlaunch.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libbbox_recv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbox_recv.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libbbsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbsutils.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcert_parse.wpa_s.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcirrusspkrprot.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomprcapture.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwcommon.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwhidl.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexthwplugin.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libgameoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgameoptfeature.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpclient.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpdsp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpfrmwk.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmiedid.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libirisService.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libiris_ioctl_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiris_ioctl_wrapper.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmeters-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters-ns.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libopenshort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenshort.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisPCS.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsap_sdk.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskewknob.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndmonitor.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspkrprot.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssrec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_softomx.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstreamparser.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi_cert.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-qcom.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/nokia/B2N/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so \
+    vendor/nokia/B2N/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc \
+    vendor/nokia/B2N/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
     vendor/nokia/B2N/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc
