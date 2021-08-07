@@ -353,7 +353,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.600WW.B2L.2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.600WW.B2L.2.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.SS2.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.SS2.target.rc \
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.TAS.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.TAS.target.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vibrator.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc \
