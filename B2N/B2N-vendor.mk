@@ -483,18 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/nokia/B2N/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/nokia/B2N/proprietary/vendor/etc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn81_rfreg.bin \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/precompiled_sepolicy:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256 \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
-    vendor/nokia/B2N/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_b2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_b2.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_c1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_c1.conf \
@@ -1298,12 +1286,3 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/nokia/B2N/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
     vendor/nokia/B2N/proprietary/vendor/lib/vndk/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx.so \
-    vendor/nokia/B2N/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm/etc/build.prop \
-    vendor/nokia/B2N/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
-    vendor/nokia/B2N/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc \
-    vendor/nokia/B2N/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
-    vendor/nokia/B2N/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
-    vendor/nokia/B2N/proprietary/vendor/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan.kl \
-    vendor/nokia/B2N/proprietary/vendor/usr/keylayout/ff_key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ff_key.kl \
-    vendor/nokia/B2N/proprietary/vendor/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl \
-    vendor/nokia/B2N/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
