@@ -357,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vibrator.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/init.fih.app_overlay.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fih.app_overlay.rc \
-    vendor/nokia/B2N/proprietary/vendor/etc/init/init.qcom.cda.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qcom.cda.vendor.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
