@@ -331,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.fs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.fs.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.lcm.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.ramdump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.ramdump.rc \
-    vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.sensor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.sensor.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.target.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/hw/init.qcom.tp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.tp.rc \
